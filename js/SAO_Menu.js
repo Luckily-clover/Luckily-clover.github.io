@@ -255,12 +255,12 @@ function Mirror() {
   hostname = window.location.hostname;
   if (hostname === 'akilar.top') {
     url = "https://akilar.gitee.io" + pathname;
-    window.alert("即将前往糖果屋分店🍬");
+    window.alert("即将前往Luckily_clover分部🍬");
     window.location.href = url;
   }
   else if(hostname === 'akilar.gitee.io') {
     url = "https://akilar.top" + pathname;
-    window.alert("正在返回糖果屋本部🍭！");
+    window.alert("正在返回Luckily_clover🍭！");
     window.location.href = url;
   }
   else {
